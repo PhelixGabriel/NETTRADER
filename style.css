@@ -166,6 +166,11 @@ h1, ul, p, a {
   font: 600 1.125rem / 1.35 Poppins, sans-serif;
   max-width: max-content;
   margin-bottom: 32px;
+  color: #352802;
+}
+
+.intro a:hover {
+  background: linear-gradient(180deg, #C1971E 0%, #B68C14 100%);
 }
 
 
