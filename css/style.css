@@ -3,8 +3,10 @@
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
 
 /* Home */
 @import "./home/intro.css";
-@import "./home/solucoes.css"
+@import "./home/solucoes.css";
 

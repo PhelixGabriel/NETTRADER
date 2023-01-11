@@ -1,6 +1,5 @@
 .intro-bg {
-  background: #000000;
-  color: #ffffff;
+  background: var(--color-12);
 }
 
 .intro {
@@ -24,17 +23,14 @@
 
 .intro h1 {
   grid-column: 1;
-  
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 55px;
-  color: #FFFFFF;
 }
 
 .intro p {
-  color: #B8B8B8;
-  font-family: 'Robot', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.5;
