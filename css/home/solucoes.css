@@ -56,3 +56,31 @@
   height: 8px;
   background-color: var(--color-p1);
 }
+
+@media (max-width:800px) {
+  .solucoes-container{
+    grid-template-columns: 1fr;
+    gap: 20px 0;
+  }
+  .solucoes h2 {
+    font-size: 1.5rem;
+   
+  }
+  .solucoes-container h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  .solucoes-container p {
+    margin: 0;
+    font-size: 0.75rem;
+  }
+  .solucoes-container img {
+    width: 50%;
+  }
+}
+
+@media (max-width:400px){
+  .solucoes-container{
+    padding-bottom: 0px;
+  }
+}

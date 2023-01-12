@@ -73,5 +73,9 @@
   .intro h1 {
     gap: 40px;
     flex-wrap: wrap;
+    font-size: 1rem;
+  }
+  .intro p {
+    font-size: 0.75rem;
   }
 }

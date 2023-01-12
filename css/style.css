@@ -1,5 +1,6 @@
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
@@ -9,4 +10,6 @@
 /* Home */
 @import "./home/intro.css";
 @import "./home/solucoes.css";
+@import "./home/servicos.css";
+@import "./home/clientes.css";
 
