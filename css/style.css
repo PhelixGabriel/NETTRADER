@@ -13,3 +13,5 @@
 @import "./home/servicos.css";
 @import "./home/clientes.css";
 
+/* Sobre */
+@import "./sobre/sobre.css";
