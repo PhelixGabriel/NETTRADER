@@ -8,6 +8,25 @@
   margin-bottom: 32px;
 }
 
+.botao.icon {
+  display: flex;
+  align-items: center;
+}
+
+.botao.icon::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icons/seta.svg");
+  transition: transform 0.4s;
+}
+
+.botao.icon:hover::after {
+  transform: translateX(4px);
+}
+
 .botao:hover {
   background: linear-gradient(180deg, var(--color-p2) 0%, var(--color-p4) 100%);
 }

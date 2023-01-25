@@ -15,3 +15,9 @@
 
 /* Sobre */
 @import "./sobre/sobre.css";
+
+/* Solução */
+@import "./solucao/solucao.css";
+
+/* Soluções */
+@import "./solucoes/solucoes.css";
