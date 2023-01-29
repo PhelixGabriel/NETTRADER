@@ -1,4 +1,4 @@
-main {
+.solucao-bg {
   background-color: var(--color-11);
 }
 
@@ -10,7 +10,6 @@ main {
   padding-bottom: 120px;
   gap: 40px;
   box-sizing: border-box;
-  margin-bottom: 40px;
   max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
@@ -37,7 +36,7 @@ main {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 2;
   margin-bottom: 20px;
 }
 

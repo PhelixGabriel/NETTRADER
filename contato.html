@@ -32,58 +32,81 @@
       </div>
     </header>
 
-    <main class="sobre-bg">
-      <div class="sobre">
-        <h1 class="color-11">A Empresa<span class="color-p1">.</span></h1>
-        <p class="color-9">
-          A NetTrader tem como objetivo oferecer soluções de alto valor
-          agregado, bem como serviços especializados</br> para o mercado financeiro e
-          de capitais. Nossa equipe é formada por profissionais com grande
-          experiência e</br> expertise em negócios, ferramentas e tecnologia de
-          ponta. Nossos processos internos têm como objetivo</br> garantir que os
-          níveis dos serviços prestados a nossos clientes, estejam sempre
-          adequados às suas</br> necessidades, atendendo às suas expectativas.
-        </p>
+    <main>
+      <div class="contato-bg">
+        <div class="titulo-contato">
+          <p class="color-11">Respostas em até 24h</p>
+          <h1 class="color-11">
+            Nosso contato <span class="color-p1">.</span>
+          </h1>
+        </div>
       </div>
 
-      <div class="sobre-container">
-        <div class="missao">
-          <h2 class="color-11">Missão</h2>
-          <p class="color-9">
-            Oferecer às empresas do mercado financeiro as mais adequadas,
-            abrangentes e inovadoras soluções em tecnologia da informação,
-            possibilitando às mesmas a diminuição de seus riscos operacionais,
-            com aumento de sua produtividade e competitividade, valorizando
-            nossos talentos internos e gerando retorno satisfatório a nossos
-            acionistas.
-          </p>
-        </div>
-        <div class="missao-img">
-          <img src="./img/sobre/Mission.svg" alt="" />
-        </div>
-
-        <div class="visao">
-          <h2 class="color-11">Visao</h2>
-          <p class="color-9">
-            Ser reconhecida nacionalmente como uma empresa de soluções inovadoras e de alto valor agregado, agindo com ética, responsabilidade e parceria.
-          </p>
-        </div>
-        <div class="visao-img">
-          <img src="./img/sobre/vision.svg" alt="" />
-        </div>
-
-        <div class="valores">
-          <h2 class="color-11">Valores</h2>
-          <ul class="color-9">
-            <li>Honestidade, ética e integridade</li>
-            <li>Respeito a clientes, colaboradores e acionistas</li> 
-            <li>Desenvolvimento, valorização e retenção dos talentos internos</li> 
-            <li>Inovação baseada na evolução do negócio e da tecnologia</li> 
-          </ul>
-        </div>
-        <div class="valores-img">
-          <img src="./img/sobre/Values.svg" alt="" />
-        </div>
+      <div class="contato container">
+        <section class="contato-dados" aria-label="Endereço">
+          <h2 class="font-1-m cor-0">Loja Online</h2>
+          <div class="contato-endereco font-2-s cor-4">
+            <p>Rua Ali Perto, 35</p>
+            <p>São Paulo - SP</p>
+            <p>Brasil - Terra - Via Láctea</p>
+          </div>
+          <address class="contato-meios font-2-s cor-4">
+            <a href="mailto:contato@bikcraft.com"
+              >mailto:contato@bikcraft.com</a
+            >
+            <a href="mailto:assistencia@bikcraft.com"
+              >assistencia@bikcraft.com</a
+            >
+            <a href="tel:+5511999999999">+55 11 99999-9999</a>
+          </address>
+          <div class="contato-redes">
+            <a href="./">
+              <img src="./img/redes/instagram-p.svg" alt="Instagram" />
+            </a>
+            <a href="./">
+              <img src="./img/redes/facebook-p.svg" alt="Facebook" />
+            </a>
+            <a href="./">
+              <img src="./img/redes/youtube-p.svg" alt="YouTube" />
+            </a>
+          </div>
+        </section>
+        <section class="contato-formulario" aria-label="Formulário">
+          <form class="form" action="./contato.html">
+            <div>
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu Nome" />
+            </div>
+            <div>
+              <label for="telefone">Telefone</label>
+              <input
+                type="text"
+                id="telefone"
+                name="telefone"
+                placeholder="(11) 97151-9726"
+              />
+            </div>
+            <div class="col-2">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="exemplo@exemplo.com.br"
+              />
+            </div>
+            <div class="col-2">
+              <label for="mensagem">Mensagem</label>
+              <textarea
+                rows="5"
+                id="mensagem"
+                name="mensagem"
+                placeholder="O que você precisa?"
+              ></textarea>
+            </div>
+            <button class="botao col-2">Enviar Mensagem</button>
+          </form>
+        </section>
       </div>
     </main>
 
